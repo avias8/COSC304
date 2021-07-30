@@ -1,8 +1,6 @@
-pip install -U pip
-install mysql-connection-python
 import mysql.connector
 try:
-    cnx = mysql.connector.connect(user='rlawrenc', password='todo', host='cosc304.ok.ubc.ca', database='workson', ssl_disabled='True')
+    cnx = mysql.connector.connect(user='avarma', password='39738166', host='cosc304.ok.ubc.ca', database='db_avarma', ssl_disabled='True')
     cursor = cnx.cursor()
     query = "SELECT ename, salary FROM emp"                
     cursor.execute(query)
