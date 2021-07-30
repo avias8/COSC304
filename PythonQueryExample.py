@@ -1,3 +1,5 @@
+pip install -U pip
+install mysql-connection-python
 import mysql.connector
 try:
     cnx = mysql.connector.connect(user='rlawrenc', password='todo', host='cosc304.ok.ubc.ca', database='workson', ssl_disabled='True')
